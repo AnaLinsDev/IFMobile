@@ -1,0 +1,7 @@
+Resposta para o ponto 8: 
+Um trigger à sua escolha, coerente com o escopo do projeto (explicar o que ele faz):
+
+Usamos trigger em chip antes de ser inserido algo nela, pois deve-se ter a geração do número, ou seja quando for inserir em chip antes será gerado um numero correspondente a este.
+Usamos trigger também em ligação que será ativado antes de ser inserida uma ligação, pois, números que não estão ativos e estão idsponiveis não podem receber chamada.
+Usamos também em cliente_chip que será ativado antes de um insert, pois é necessário ver se o cliente está cancelado ou não, caso cancelado ele não podera ser inserido na tabela
+Usamos em cliente, antes de ocorrer um UPDATE , pois, precisará ocorrer uma verificação para ver se o cliente será cancelado, caso seja o número ficará disponivel.
